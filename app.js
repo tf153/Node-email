@@ -25,10 +25,10 @@ async function sendMail(){
         })
         const mailOptions={
             from:'Rahul Joshi <rjgame18@gmail.com>',
-            to:'tj18022826@gmail.com',
-            subject: "hllo form node",
+            to:'joshichetna875@gmail.com',
+            subject: "RJ",
             text:"howz you",
-            html:"<h1>howz you in html</h1>"
+            html:"<h1>Node js m bnayi hai ye api :)</h1>"
         }
 
         const result=await transport.sendMail(mailOptions);
